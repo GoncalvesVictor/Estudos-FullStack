@@ -7,5 +7,6 @@
   + [ ] Desenvolver CRUD de Livros/Categorias
   + [ ] Desenvolver Front-End - Login de acesso
   + [ ] Desenvolver Front-End - Consumo das APIs
+  <!-- Inserir gif com imagens do sistema pronto-->
 
 ## 02. CRM Virtual
