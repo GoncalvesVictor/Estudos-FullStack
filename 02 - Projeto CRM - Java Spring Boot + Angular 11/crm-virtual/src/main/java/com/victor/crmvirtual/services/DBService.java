@@ -28,13 +28,14 @@ public class DBService {
 
 	public void instanciaDB() {
 		Tecnico t1 = new Tecnico(null, "Victor Gonçalves", "080.713.200-48", "(99) 98888-8888");
+		Tecnico t2 = new Tecnico(null, "Victor Gonçalves 2", "891.518.810-12", "(99) 98888-8888");
 		Cliente c1 = new Cliente(null, "Dayra Nascimento", "512.749.200-86", "(88) 97777-7777");
 		OS os1 = new OS(null, Prioridade.ALTA, "Teste Create OS", Status.ANDAMENTO, t1, c1);
 
 		t1.getList().add(os1);
 		c1.getList().add(os1);
 
-		tecnicoRepository.saveAll(Arrays.asList(t1));
+		tecnicoRepository.saveAll(Arrays.asList(t1, t2));
 		clienteRepository.saveAll(Arrays.asList(c1));
 
 		osRepository.saveAll(Arrays.asList(os1));
