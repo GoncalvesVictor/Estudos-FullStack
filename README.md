@@ -12,6 +12,7 @@
 ## 02. CRM Virtual
   + [x] Configuração do BD Apache (Xampp)
   + [x] Criado perfis de DEV e TEST com massa de teste (pequena)
+  + [x] Validações de exceção e erros personalidados
   + [ ] Microserviçoes via API Rest - CRUD 
   + [ ] Evoluir, implementando autenticação
   + [ ] Desenvolver Front-End - Login de acesso
